@@ -12,14 +12,14 @@ theme:
   language: es
   palette:
   # Modo Oscuro
-    - scheme: default #Por defecto
+    - scheme: slate #Por defecto
       primary: black # Color del header
       accent: lime # Color de los enlaces y botones al pasar el ratón por encima
       toggle:
         icon: material/weather-sunny
         name: Cambiar a modo claro
     # Modo Claro 
-    - scheme: slate
+    - scheme: default
       primary: indigo   
       accent: purple   
       toggle:
