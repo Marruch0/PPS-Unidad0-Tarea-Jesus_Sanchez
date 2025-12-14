@@ -105,33 +105,45 @@ Ahora vamos a ejecutar el comando `mkdocs server` y si nos vamos al navegador y 
 ## Workflow de Github
 En lugar de generar la web manualmente en mi ordenador y subir los HTML, he creado un **Workflow** de GitHub Actions.
 
-Este es un "robot" que sigue unas instrucciones definidas en el archivo `.github/workflows/CreacionDocumentacion.yml`.
+Para poder hacerlo simplemnte tendremos que crear el siguiente archivo en la siguiente ruta del repositorio `.github/workflows/CreacionDocumentacion.yml` y añadir lo siguiente
+```yml
+name: Generación automática de documentación
 
-### Código del Workflow
-El archivo YAML define los siguientes pasos que ejecuta el servidor de GitHub (Runner):
+on:
+  push:
+    branches:
+      - main
 
-1.  **Checkout:** Descarga mi código.
-2.  **Setup Python:** Instala el entorno de ejecución.
-3.  **Instalación:** Instala MkDocs y el tema Material.
-4.  **Despliegue:** Ejecuta el comando `mkdocs gh-deploy` para crear la rama `gh-pages`.
+permissions:
+  contents: write
 
-![Código del Workflow](images/workflow-codigo.png)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
 
----
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-## 3. Resolución de Incidencias (Troubleshooting)
+      - name: Instalar MkDocs y Tema Material y Puglins 
+        run: pip install mkdocs mkdocs-material mkdocs-glightbox Pygments pymdown-extensions
 
-Durante la primera ejecución del pipeline, el proceso falló debido a una restricción de seguridad en los permisos del Token automático.
+      - name: Generar y desplegar documentación
+        run: mkdocs gh-deploy --force
+```
 
+## Resolución de errores
+En la ultima parte de este apartado al intentar subir el workflow es probable que nos de error si no tenemos la parte de:
+```yml
+permissions:
+  contents: write
+```
+Ya que sin los permisos de escritura nos saldría el siguiente error:
 !!! failure "Error en el despliegue"
     El log de GitHub Actions mostró el siguiente error crítico:
     > `refusing to allow a Personal Access Token to create or update workflow`
 
-    Esto indicaba que el robot no tenía permisos de **escritura** para publicar en la rama de la web.
-
-### Solución Aplicada
-Para corregirlo, se editaron los permisos dentro del archivo del Workflow, otorgando explícitamente capacidad de escritura al proceso:
-
-```yaml
-permissions:
-  contents: write
