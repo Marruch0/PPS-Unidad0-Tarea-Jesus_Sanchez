@@ -13,6 +13,13 @@ theme:
   name: material
   language: es
   palette:
+  # Modo Oscuro
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
     # Modo Claro (Por defecto)
     - scheme: default
       primary: indigo  # Color de la barra superior (header)
@@ -21,13 +28,6 @@ theme:
         icon: material/weather-night
         name: Cambiar a modo oscuro
 
-    # Modo Oscuro
-    - scheme: slate
-      primary: black
-      accent: lime
-      toggle:
-        icon: material/weather-sunny
-        name: Cambiar a modo claro
   features:
     - navigation.top  # Botón para volver arriba
     - navigation.expand  # Hace que el menú de la izquierda salga abierto
