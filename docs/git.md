@@ -69,3 +69,13 @@ Y aquí la deremos un nombre al token, en mi caso usaré Fedora Git. Tambien le 
 Una vez hecho esto crearemos el tokken y se github nos lo mostrará en pantalla.
 !!! warning "Copiar y guardar el tokken"
 	Tendremos que guardar el tokken, ya que GitHub solo nos lo mostrará una vez, por lo que mucho cuidado con esto.
+
+## Comprobación del problema solucionado y de cambios en el repositorio
+
+Ahora volvemos a intentar la subida de los cambios al repositorios con `git push origin main` y cuando nos pida la contraseña copiaremos el tokken que hemos creado y ahora si tendriamos subidos los cambios al repositorio y podremos comprobarlo en el navegador.
+
+![Git push bien](imagenes/git_push_bien.png)
+
+![Comprobacion del repositorio](imagenes/comprobacionrepositorio.png)
+
+![Comprobacion del repositorio 2](imagenes/comprobacionRepositorio2.png)
