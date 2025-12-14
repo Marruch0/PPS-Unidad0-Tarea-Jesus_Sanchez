@@ -6,24 +6,22 @@ nav:
   - GitHub Pages: gitPages.md
   - Docker: docker.md
   - Conclusiones: conclusiones.md
-site_name: PPS Unidad 0 - Jesús Sánchez
 
-# ESTO ES LO NUEVO (DISEÑO)
 theme:
   name: material
   language: es
   palette:
   # Modo Oscuro
-    - scheme: slate
-      primary: black
-      accent: lime
+    - scheme: default #Por defecto
+      primary: black # Color del header
+      accent: lime # Color de los enlaces y botones al pasar el ratón por encima
       toggle:
         icon: material/weather-sunny
         name: Cambiar a modo claro
-    # Modo Claro (Por defecto)
-    - scheme: default
-      primary: indigo  # Color de la barra superior (header)
-      accent: purple   # Color de enlaces y botones
+    # Modo Claro 
+    - scheme: slate
+      primary: indigo   
+      accent: purple   
       toggle:
         icon: material/weather-night
         name: Cambiar a modo oscuro
@@ -33,20 +31,13 @@ theme:
     - navigation.expand  # Hace que el menú de la izquierda salga abierto
 
 plugins:
-  - search
-  - glightbox
+  - search #Buscador
+  - glightbox #Para poder poner las imagenes en pantalla completa
   
 markdown_extensions:
-  - admonition
+  - admonition # Extension para las cajas de warning, info,etc
   - pymdownx.details
   - pymdownx.superfences
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
 
-nav:
-  - Inicio: index.md
-  - Git: git.md
-  - GitHub Actions: gitActions.md
-  - GitHub Pages: gitPages.md
-  - Docker: docker.md
-  - Conclusiones: conclusiones.md
