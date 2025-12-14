@@ -38,6 +38,8 @@ markdown_extensions:
   - admonition # Extension para las cajas de warning, info,etc
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight:
+        anchor_linenums: true
 extra_css:
   - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
 
