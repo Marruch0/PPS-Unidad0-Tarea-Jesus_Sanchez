@@ -4,6 +4,18 @@
 **Asignatura:** Puesta en Producción Segura  
 **Curso:** 2025-2026
 ![Imagen de la portada](imagenes/imagen_portada.png)
+## Índice de contenidos
+1. [Control de Versiones con Git](git.md)
+	* *Preparación e instalación, creación del repositorio y seguridad mediante Tokens.*
+2. [Automatización con GitHub Actions](gitActions.md)
+	* *Creación del Workflow, configuración de MkDocs y resolución de problemas.*
+3. [Despliegue en GitHub Pages](gitPages.md)
+	* *Configuración del repositorio para poder publicar la web.*
+4. [Contenedores con Docker](docker.md)
+	* *POR HACER*
+5. [Conclusiones](conclusiones.md)
+	* *POR HACER*
+
 ## Introducción
 En esta documentación voy a proceder a explicar como realizar la tarea y todos los resultados de esta.
 !!! warning Sistema Operativo utilizado
@@ -16,14 +28,4 @@ Esta tarea trata de de aprender a usar y configurar las siguientes tecnlogías:
 	* **Docker:** Contenerización del servidor web (NGINX).
 	* **Markdown:** Lenguaje de marcado para la documentación.
 
-## Índice de contenidos
-1. [Control de Versiones con Git](git.md)
-	* *Preparación e instalación, creación del repositorio y seguridad mediante Tokens.*
-2. [Automatización con GitHub Actions](gitActions.md)
-	* *Creación del Workflow, configuración de MkDocs y resolución de problemas.*
-3. [Despliegue en GitHub Pages](gitPages.md)
-	* *Configuración del repositorio para poder publicar la web.*
-4. [Contenedores con Docker](docker.md)
-	* *POR HACER*
-5. [Conclusiones](conclusiones.md)
-	* *POR HACER*
+
