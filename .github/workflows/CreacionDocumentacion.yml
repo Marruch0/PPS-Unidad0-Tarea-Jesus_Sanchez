@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Instalar MkDocs
-        run: pip install mkdocs
+      - name: Instalar MkDocs y Tema Material
+        run: pip install mkdocs mkdocs-material
 
       - name: Generar y desplegar documentación
         run: mkdocs gh-deploy --force

@@ -6,3 +6,36 @@ nav:
   - GitHub Pages: gitPages.md
   - Docker: docker.md
   - Conclusiones: conclusiones.md
+site_name: PPS Unidad 0 - Jesús Sánchez
+
+# ESTO ES LO NUEVO (DISEÑO)
+theme:
+  name: material
+  language: es
+  palette:
+    # Modo Claro (Por defecto)
+    - scheme: default
+      primary: indigo  # Color de la barra superior (header)
+      accent: purple   # Color de enlaces y botones
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+    # Modo Oscuro
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs # Pone el menú arriba en pestañas en vez de lateral (opcional)
+    - navigation.top  # Botón para volver arriba
+
+nav:
+  - Inicio: index.md
+  - Git: git.md
+  - GitHub Actions: gitActions.md
+  - GitHub Pages: gitPages.md
+  - Docker: docker.md
+  - Conclusiones: conclusiones.md
