@@ -28,4 +28,6 @@ Esta tarea trata de de aprender a usar y configurar las siguientes tecnologías:
 	* **Docker:** Contenerización del servidor web (NGINX).
 	* **Markdown:** Lenguaje de marcado para la documentación.
 
-
+<div align="center">
+  <a href="git.md" class="md-button md-button--primary">Comenzar: Control de Versiones ➜</a>
+</div>
