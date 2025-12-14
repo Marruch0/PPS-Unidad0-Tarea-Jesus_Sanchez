@@ -1,18 +1,8 @@
-### 4. Para el archivo `docs/gitPages.md`
+# Configuruación de GitHub Pages
+ Una vez tenemos ya el workflow, esté nos creará una nueva rama llamada gh-pages, la cual usaramos para hacer la página web.
+ Para poder crearla, simplemente nos iremos a ajustes del repositorio y hacer click en Pages y simplemente lo configuraremos como en la siguiente imagen:
 
-# Vinculación con GitHub Pages
+ ![Configuracion Github Pages](imagenes/github-pages.png)
 
-Una vez que el Workflow generó el contenido en la rama `gh-pages`, se procedió a publicarlo.
-
-## Configuración
-En los ajustes del repositorio (**Settings > Pages**), se configuró la fuente de despliegue:
-* **Source:** Deploy from a branch
-* **Branch:** `gh-pages` / root
-
-![Configuración de Pages](images/pages-config.png)
-
-## Resultado Final
-GitHub proporcionó la URL pública del proyecto, verificando el acceso correcto:
-
-**URL:** [https://Marruch0.github.io/PPS-Unidad0-Tarea-Jesus_Sanchez/](https://Marruch0.github.io/PPS-Unidad0-Tarea-Jesus_Sanchez/)
-
+ Una vez guardemos, esperamos unos 2 minutos y github nos dará un enlace, si accemos a él tendremos la página web funcionando correctamente.
+ 

@@ -147,3 +147,4 @@ Ya que sin los permisos de escritura nos saldría el siguiente error:
     El log de GitHub Actions mostró el siguiente error crítico:
     > `refusing to allow a Personal Access Token to create or update workflow`
 
+Ahora vamos a pasar a la configuracion de la pagina web con GitHub Pages --> [Continuar...](gitPages.md)
