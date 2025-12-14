@@ -35,7 +35,7 @@ plugins:
   - glightbox #Para poder poner las imagenes en pantalla completa
   
 markdown_extensions:
-  - admonition # Extension para las cajas de warning, info,etc
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.inlinehilite
