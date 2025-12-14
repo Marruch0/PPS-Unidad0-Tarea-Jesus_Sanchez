@@ -4,6 +4,8 @@
 **Módulo:** Puesta en Producción Segura  
 **Curso:** 2025-2026
 
+![Imagen de la portada](imagenes/imagen_portada.png)
+
 ## Introducción
 Esta documentación recoge el proceso técnico realizado para la creación de un entorno de desarrollo seguro (DevSecOps), abarcando desde el control de versiones hasta el despliegue automatizado de documentación y contenedores.
 
