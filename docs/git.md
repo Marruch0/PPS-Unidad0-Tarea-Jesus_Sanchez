@@ -44,17 +44,21 @@ Y comprobaremos que lo hemos realizado correctamente con `tree`.
 Una vez comprobado vamos a hacer el primer commit para poder subir todo al repositorio, para ellos primero lo añadiremos con `git add .` indicandoselo en la ruta del repositorio no en ningun subdirectorio, lo siguiente será hacer el commit de lo realizado, para ello usaremos el comando y la descripción de lo realizado `git commit -m "Estructura inicial del proyecto"` y por ultimo haremos el push indicandole la ruta correspondiente, en nuestro caso será main `git push origin main`.
 
 Ahora nos pedirá el usuario y la contraseña pero lo mas probable es que nos de error como pasa en la siguiente imagen:
+
 ![Error password](imagenes/primerpushError.png)
 
 Para solucionarlo tendremos que crear un Token y usarlo como contraseño. Para ellos nos iremos de nuevo a GitHub en el navegador y nos iremos a Settings>Developer Settings>Personal access tokkens y aqui selecionaremos el "classic".
+
 ![Token classic](imagenes/token1.png)
 
 Una vez aquí, le daremos a generar un nuevo token clasico.
+
 ![Token classic 2](imagenes/token2.png)
 
 Y aquí la deremos un nombre al token, en mi caso usaré Fedora Git. Tambien le daremos una "fecha de caducidad" al token, que en mi caso serán 90 días y seleccionaremos los permisos que tendremos con ese token, tendremos que tener los permisos de:
 	* repo
 	* workflow(Lo necesitaremos para más adelante)
+	
 ![Permisos token](imagenes/token3.png)
 ![Permisos workflow](imagenes/token4.png)
 	
