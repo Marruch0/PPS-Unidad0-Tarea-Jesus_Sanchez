@@ -1,4 +1,4 @@
-ç# Tarea Unidad 0 
+# Tarea Unidad 0 
 **Alumno:** Jesús Sánchez  
 **Asignatura:** Puesta en Producción Segura  
 **Curso:** 2025-2026
