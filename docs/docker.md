@@ -39,3 +39,5 @@ Ahora si nos entramos en el localhost mediante el navegador por el puerto 8085, 
 
 !!! info "Contenido de inspect"
 	El contenido de inspect estará en la subida de la tarea en el moodle.
+
+Seguir con el ultimo apartado, las conclusiones --> [Continuar...](conclusiones.md)
