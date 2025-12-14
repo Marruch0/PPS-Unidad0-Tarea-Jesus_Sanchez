@@ -32,6 +32,10 @@ theme:
     - navigation.tabs # Pone el menú arriba en pestañas en vez de lateral (opcional)
     - navigation.top  # Botón para volver arriba
 
+plugins:
+  - search
+  - glightbox
+  
 markdown_extensions:
   - admonition
   - pymdownx.details
