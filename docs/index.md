@@ -1,9 +1,9 @@
-# Tarea Unidad 0 
-
+ç# Tarea Unidad 0 
 **Alumno:** Jesús Sánchez  
 **Asignatura:** Puesta en Producción Segura  
 **Curso:** 2025-2026
 ![Imagen de la portada](imagenes/imagen_portada.png)
+
 ## Índice de contenidos
 1. [Control de Versiones con Git](git.md)
 	* *Preparación e instalación, creación del repositorio y seguridad mediante Tokens.*
@@ -16,10 +16,16 @@
 5. [Conclusiones](conclusiones.md)
 	* *POR HACER*
 
+``PRUEBA``
+
+``
+	PRUEBA
+``
+
 ## Introducción
 En esta documentación voy a proceder a explicar como realizar la tarea y todos los resultados de esta.
 !!! warning Sistema Operativo utilizado
-	Esta actividad y todas las siguientes estarán realizadas en Fedora(Linux).
+	Esta actividad y todas las siguientes estarán realizadas en *Fedora(Linux)*.
 Esta tarea trata de de aprender a usar y configurar las siguientes tecnologías:
 !!! info
 	* **Git:** Control de versiones y gestión del repositorio.
@@ -27,7 +33,4 @@ Esta tarea trata de de aprender a usar y configurar las siguientes tecnologías:
 	* **GitHub Actions:** Automatización del ciclo de vida (CI/CD).
 	* **Docker:** Contenerización del servidor web (NGINX).
 	* **Markdown:** Lenguaje de marcado para la documentación.
-
-<div align="center">
-  <a href="git.md" class="md-button md-button--primary">Comenzar: Control de Versiones ➜</a>
-</div>
+Por ello vamos a comenzar con el primera apartado de la actividad --> [Comenzar](git.md)
