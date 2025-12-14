@@ -1,9 +1,9 @@
-# Automatización con GitHub Actions y MkDocs
+# **Automatización con GitHub Actions y MkDocs**
 En este apartado voy a explicar como instalar y configurar MKdocs así como el Workflow de GitHub para que cada vez que haya cambios y se ejecute un push se actualice la web que posteriormente configuraremos con GitHub Pages 
 
 
 
-## MkDocs
+## **MkDocs**
 Para poder convertir los archivos Markdown en una pagina web utilizaremos *MkDocs, con el tema *Material*.
 Lo primero que vamos a hacer es intalar todo lo necesario de forma local. Lo primero será Python y lo haremos mediante el siguiente comando:
 ```bash
@@ -27,6 +27,7 @@ Y lo comprobaremos con el comando `mkdocs --version`
 
 ![Comprobacion instalacion MkDocs](imagenes/comprobacion_instalacion_mkdocs.png)
 
+### Código MkDocs
 Ahora vamos a crear el archivo `mkdocs.yml` en la raiz del repositorio, en este vamos a definir la estructura de la nevegación, el tema, las extenesiones, los plugins,etc.
 Y en el vamos a incluir lo siguiente:
 ```bash
