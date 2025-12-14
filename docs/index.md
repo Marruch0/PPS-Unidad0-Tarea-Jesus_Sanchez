@@ -20,7 +20,7 @@
 En esta documentación voy a proceder a explicar como realizar la tarea y todos los resultados de esta.
 !!! warning Sistema Operativo utilizado
 	Esta actividad y todas las siguientes estarán realizadas en Fedora(Linux).
-Esta tarea trata de de aprender a usar y configurar las siguientes tecnlogías:
+Esta tarea trata de de aprender a usar y configurar las siguientes tecnologías:
 !!! info
 	* **Git:** Control de versiones y gestión del repositorio.
 	* **MkDocs:** Generación de documentación estática como código.
