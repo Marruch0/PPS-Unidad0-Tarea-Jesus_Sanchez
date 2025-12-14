@@ -12,9 +12,9 @@
 3. [Despliegue en GitHub Pages](gitPages.md)
 	* *Configuración del repositorio para poder publicar la web.*
 4. [Contenedores con Docker](docker.md)
-	* *POR HACER*
+	* *Instalación en Fedora, configuración de permisos y despliegue de un servidor web de prueba.*
 5. [Conclusiones](conclusiones.md)
-	* *POR HACER*
+	* *Reflexión final sobre el proyecto y lecciones aprendidas*
 
 ## Introducción
 En esta documentación voy a proceder a explicar como realizar la tarea y todos los resultados de esta.
