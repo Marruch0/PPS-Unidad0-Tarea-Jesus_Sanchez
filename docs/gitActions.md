@@ -30,7 +30,7 @@ Y lo comprobaremos con el comando `mkdocs --version`
 ### Código MkDocs
 Ahora vamos a crear el archivo `mkdocs.yml` en la raiz del repositorio, en este vamos a definir la estructura de la nevegación, el tema, las extenesiones, los plugins,etc.
 Y en el vamos a incluir lo siguiente:
-```bash
+```yml
 	site_name: PPS Unidad 0 - Jesus Sanchez
 	nav:
 	  - Inicio: index.md
