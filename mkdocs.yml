@@ -29,8 +29,8 @@ theme:
         icon: material/weather-sunny
         name: Cambiar a modo claro
   features:
-    - navigation.tabs # Pone el menú arriba en pestañas en vez de lateral (opcional)
     - navigation.top  # Botón para volver arriba
+    - navigation.expand  # Hace que el menú de la izquierda salga abierto
 
 plugins:
   - search
