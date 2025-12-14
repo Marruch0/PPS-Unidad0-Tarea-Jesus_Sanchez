@@ -1,7 +1,7 @@
 # Git y GitHub
 ## Instalación de Git y configuración
-Para poder realizar este apartado *necesitaremos tener instalado Git* en nuestro sistema, en mi caso *utilizo Fedora*, por lo que voy a explicar como hacer una *instalación y configuración* en este sistema operativo.
-*Primero* tendremos que *actualizar los repositorio*s y el sistema con `sudo dnf update -y` para a continuación *instalar git*.
+Para poder realizar este apartado **necesitaremos tener instalado Git** en nuestro sistema, en mi caso **utilizo Fedora**, por lo que voy a explicar como hacer una **instalación y configuración** en este sistema operativo.
+**Primero** tendremos que **actualizar los repositorio**s y el sistema con `sudo dnf update -y` para a continuación *instalar git*.
 ```bash
 	sudo dnf install -y git
 ```
@@ -33,10 +33,10 @@ Una vez creado vamos a clonar el repositorio con el enlace del respositorio y lo
 
 Una vez tenemos clonado el escritorio y hemos comprobado con `ls` que esta vacio vamos a crear la estructura que se nos pide para esta actividad para ello haremos uso de los siguientes comandos:
 ```bash
-mkdir -p docs .github/workflows calculator
-touch mkdocs.yml requirements.txt
-touch docs/index.md docs/git.md docs/gitActions.md docs/gitPages.md docs/docker.md docs/conclusiones.md
-touch calculator/__init__.py calculator/gui.py
+	mkdir -p docs .github/workflows calculator
+	touch mkdocs.yml requirements.txt
+	touch docs/index.md docs/git.md docs/gitActions.md docs/gitPages.md docs/docker.md docs/conclusiones.md
+	touch calculator/__init__.py calculator/gui.py
 ```
 Y comprobaremos que lo hemos realizado correctamente con `tree`.
 ![Comprobacion directorios](imagenes/tree.png)
@@ -56,6 +56,7 @@ Una vez aquí, le daremos a generar un nuevo token clasico.
 ![Token classic 2](imagenes/token2.png)
 
 Y aquí la deremos un nombre al token, en mi caso usaré Fedora Git. Tambien le daremos una "fecha de caducidad" al token, que en mi caso serán 90 días y seleccionaremos los permisos que tendremos con ese token, tendremos que tener los permisos de:
+
 	* repo
 	* workflow(Lo necesitaremos para más adelante)
 	
