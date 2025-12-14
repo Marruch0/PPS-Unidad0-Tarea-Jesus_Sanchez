@@ -6,10 +6,12 @@ En este apartado voy a explicar como instalar y configurar MKdocs así como el W
 ## **MkDocs**
 Para poder convertir los archivos Markdown en una pagina web utilizaremos *MkDocs, con el tema *Material*.
 Lo primero que vamos a hacer es intalar todo lo necesario de forma local. Lo primero será Python y lo haremos mediante el siguiente comando:
+
 ```bash
 sudo dnf install -y python3 python3-pip
 ```
 Y comprobaremos la instalación con:
+
 ```bash
 python3 --version
 pip3 --version
@@ -18,6 +20,7 @@ pip3 --version
 ![Comprobacion python instalado](imagenes/python_instalacion.png)
 
 Lo sigueinte será instalar MkDocs y para ello ejecutaremos:
+
 ```bash
 pip install --user mkdocs
 ```
@@ -30,6 +33,7 @@ Y lo comprobaremos con el comando `mkdocs --version`
 ### Código MkDocs
 Ahora vamos a crear el archivo `mkdocs.yml` en la raiz del repositorio, en este vamos a definir la estructura de la nevegación, el tema, las extenesiones, los plugins,etc.
 Y en el vamos a incluir lo siguiente:
+
 ```yml
 site_name: PPS Unidad 0 - Jesus Sanchez
 nav:
@@ -78,12 +82,6 @@ markdown_extensions:
         pygments_lang_class: true
 extra_css:
   - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
-```
-
-```yml
-site_name: PPS Unidad 0 - Jesus Sanchez
-nav:
-...
 ```
 
 
