@@ -74,15 +74,31 @@ plugins:
 markdown_extensions:
   - admonition # Extension para las cajas de warning, info,etc
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.inlinehilite
+  - pymdownx.superfences
   - pymdownx.highlight:
-        anchor_linenums: true
-        line_spans: __span
-        pygments_lang_class: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      
 extra_css:
   - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
 ```
+Ahora vamos a ejecutar el comando `mkdocs server` y si nos vamos al navegador y nos conectamos al localhost por el puerto 8000 podremos ver como tenemos nuestra página en local.
+!!! info ""
+	Imagen de antes de toda la configuracion estética. El primer yml fue este:
+	```yml
+	site_name: PPS Unidad 0 - Jesús Sánchez
+	nav:
+	  - Inicio: index.md
+	  - Git: git.md
+	  - GitHub Actions: gitActions.md
+	  - GitHub Pages: gitPages.md
+	  - Docker: docker.md
+	  - Conclusiones: conclusiones.md
+	```
+
+![Pagina en local](imagenes/paginalocal.png)
 
 
 

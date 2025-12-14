@@ -35,11 +35,14 @@ plugins:
   - glightbox #Para poder poner las imagenes en pantalla completa
   
 markdown_extensions:
-  - admonition
+  - admonition # Extension para las cajas de warning, info,etc
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
   - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
  
 extra_css:
   - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
