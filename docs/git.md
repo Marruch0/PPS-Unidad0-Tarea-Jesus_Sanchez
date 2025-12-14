@@ -3,7 +3,7 @@
 Para poder realizar este apartado **necesitaremos tener instalado Git** en nuestro sistema, en mi caso **utilizo Fedora**, por lo que voy a explicar como hacer una **instalación y configuración** en este sistema operativo.
 **Primero** tendremos que **actualizar los repositorio**s y el sistema con `sudo dnf update -y` para a continuación *instalar git*.
 ```bash
-	sudo dnf install -y git
+sudo dnf install -y git
 ```
 ![Prueba instalacion git](imagenes/instalacion_git.png)
 
@@ -14,8 +14,8 @@ Y comprobaremos que se ha instalado correctamente con `git -v`.
 A continuación vamos a configurar el nombre de usuario y el correo electrónico para poder identificar el origen de los commits. En mi caso el usuario y el correo será el mismo que el de la cuenta de GitHub.
 Para poder realizar esto, haremos uso de estos comandos:
 ```bash
-	git config --global user.name "Usuario o Nombre"
-	git config --global user.email "Correo electrónico"
+git config --global user.name "Usuario o Nombre"
+git config --global user.email "Correo electrónico"
 ```
 ![Usuario y Correo](imagenes/usuarioycorreo.png)
 
@@ -33,10 +33,10 @@ Una vez creado vamos a clonar el repositorio con el enlace del respositorio y lo
 
 Una vez tenemos clonado el escritorio y hemos comprobado con `ls` que esta vacio vamos a crear la estructura que se nos pide para esta actividad para ello haremos uso de los siguientes comandos:
 ```bash
-	mkdir -p docs .github/workflows calculator
-	touch mkdocs.yml requirements.txt
-	touch docs/index.md docs/git.md docs/gitActions.md docs/gitPages.md docs/docker.md docs/conclusiones.md
-	touch calculator/__init__.py calculator/gui.py
+mkdir -p docs .github/workflows calculator
+touch mkdocs.yml requirements.txt
+touch docs/index.md docs/git.md docs/gitActions.md docs/gitPages.md docs/docker.md docs/conclusiones.md
+touch calculator/__init__.py calculator/gui.py
 ```
 Y comprobaremos que lo hemos realizado correctamente con `tree`.
 ![Comprobacion directorios](imagenes/tree.png)
