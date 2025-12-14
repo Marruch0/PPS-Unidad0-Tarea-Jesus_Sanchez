@@ -27,4 +27,4 @@ Esta tarea trata de de aprender a usar y configurar las siguientes tecnologías:
 	* **GitHub Actions:** Automatización del ciclo de vida (CI/CD).
 	* **Docker:** Contenerización del servidor web (NGINX).
 	* **Markdown:** Lenguaje de marcado para la documentación.
-Por ello vamos a comenzar con el primera apartado de la actividad --> [Comenzar](git.md)
+Por ello vamos a comenzar con el primer apartado de la actividad --> [Comenzar](git.md)
