@@ -47,6 +47,8 @@ Ahora nos pedirá el usuario y la contraseña pero lo mas probable es que nos de
 
 ![Error password](imagenes/primerpushError.png)
 
+### Solución del problema con la contraseña
+
 Para solucionarlo tendremos que crear un Token y usarlo como contraseño. Para ellos nos iremos de nuevo a GitHub en el navegador y nos iremos a Settings>Developer Settings>Personal access tokkens y aqui selecionaremos el "classic".
 
 ![Token classic](imagenes/token1.png)
