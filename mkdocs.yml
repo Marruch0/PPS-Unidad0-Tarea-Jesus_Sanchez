@@ -38,11 +38,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+ 
 extra_css:
   - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
 
