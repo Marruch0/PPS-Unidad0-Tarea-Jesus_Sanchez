@@ -18,9 +18,7 @@
 
 ``PRUEBA``
 
-``
-	PRUEBA
-``
+`PRUEBA`
 
 ## Introducción
 En esta documentación voy a proceder a explicar como realizar la tarea y todos los resultados de esta.
