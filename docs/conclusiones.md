@@ -1,8 +1,9 @@
 # Conclusiones
+En esta primera tarea se ha documentado y configurado las siguientes tecnologías:
 
-La realización de esta actividad ha permitido integrar componentes del ciclo **DevSecOps**:
+* **Git y GitHub:** Para el control de versiones y el almacenamiento del código en la nube.
+* **MkDocs:** Para generar esta documentación estática de forma sencilla, visual y estructurada.
+* **GitHub Actions:** Para crear un "workflow" que automatiza la publicación de la web cada vez que hacemos un cambio, sin intervención manual.
+* **Docker:** Para entender cómo empaquetar aplicaciones y servicios en contenedores aislados.
 
-1. **Automatización:** GitHub Actions elimina la tarea manual de generar documentación.
-2. **Seguridad:** Se ha comprobado la importancia de los Tokens y los permisos en los workflows.
-3. **Contenerización:** Docker ha permitido levantar un servicio web rápidamente.
-4. **Infraestructura como Código:** La documentación se gestiona igual que el código fuente.
+En conclusión, el uso de estas herramientas nos permite trabajar de una manera mucho mas profesional y sin una gran dificultado, sobre todo a la hora de poder crear un portfolio personal, compartir apuntes o incluso crear un blog personal.
