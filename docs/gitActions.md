@@ -80,9 +80,15 @@ extra_css:
   - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
 ```
 
+```yml
+site_name: PPS Unidad 0 - Jesus Sanchez
+nav:
+...
+```
 
 
-## 2. El Automatizador: Workflow de GitHub
+
+## Workflow de Github
 En lugar de generar la web manualmente en mi ordenador y subir los HTML, he creado un **Workflow** de GitHub Actions.
 
 Este es un "robot" que sigue unas instrucciones definidas en el archivo `.github/workflows/CreacionDocumentacion.yml`.
