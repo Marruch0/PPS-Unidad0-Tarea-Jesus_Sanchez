@@ -36,6 +36,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Inicio: index.md
