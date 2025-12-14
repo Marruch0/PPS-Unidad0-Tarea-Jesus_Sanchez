@@ -1,26 +1,29 @@
-# Tarea Unidad 0 - Entorno DevSecOps
+# Tarea Unidad 0 
 
 **Alumno:** Jesús Sánchez  
-**Módulo:** Puesta en Producción Segura  
+**Asignatura:** Puesta en Producción Segura  
 **Curso:** 2025-2026
-
 ![Imagen de la portada](imagenes/imagen_portada.png)
-
 ## Introducción
-Esta documentación recoge el proceso técnico realizado para la creación de un entorno de desarrollo seguro (DevSecOps), abarcando desde el control de versiones hasta el despliegue automatizado de documentación y contenedores.
-
-!!! warning "Cuidado"
-	Prueba de Warning
-
-!!! success "Resultado"
-	Prueba de Success
-
-!!! failure "Error"
-	Prueba de Failure
+En esta documentación voy a proceder a explicar como realizar la tarea y todos los resultados de esta.
+!!! warning Sistema Operativo utilizado
+	Esta actividad y todas las siguientes estarán realizadas en Fedora(Linux).
+Esta tarea trata de de aprender a usar y configurar las siguientes tecnlogías:
+!!! info
+	* **Git:** Control de versiones y gestión del repositorio.
+	* **MkDocs:** Generación de documentación estática como código.
+	* **GitHub Actions:** Automatización del ciclo de vida (CI/CD).
+	* **Docker:** Contenerización del servidor web (NGINX).
+	* **Markdown:** Lenguaje de marcado para la documentación.
 
 ## Índice de contenidos
 1. [Control de Versiones con Git](git.md)
+	* *Preparación e instalación, creación del repositorio y seguridad mediante Tokens.*
 2. [Automatización con GitHub Actions](gitActions.md)
+	* *Creación del Workflow, configuración de MkDocs y resolución de problemas.*
 3. [Despliegue en GitHub Pages](gitPages.md)
+	* *Configuración del repositorio para poder publicar la web.*
 4. [Contenedores con Docker](docker.md)
+	* *POR HACER*
 5. [Conclusiones](conclusiones.md)
+	* *POR HACER*
