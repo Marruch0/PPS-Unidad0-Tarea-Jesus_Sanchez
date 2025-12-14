@@ -32,6 +32,11 @@ theme:
     - navigation.tabs # Pone el menú arriba en pestañas en vez de lateral (opcional)
     - navigation.top  # Botón para volver arriba
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Inicio: index.md
   - Git: git.md
