@@ -58,4 +58,6 @@ Y aquí la deremos un nombre al token, en mi caso usaré Fedora Git. Tambien le 
 ![Permisos token](imagenes/token3.png)
 ![Permisos workflow](imagenes/token4.png)
 	
-	
+Una vez hecho esto crearemos el tokken y se github nos lo mostrará en pantalla.
+!!! warning "Copiar y guardar el tokken"
+	Tendremos que guardar el tokken, ya que GitHub solo nos lo mostrará una vez, por lo que mucho cuidado con esto.
