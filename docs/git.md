@@ -79,3 +79,6 @@ Ahora volvemos a intentar la subida de los cambios al repositorios con `git push
 ![Comprobacion del repositorio](imagenes/comprobacionrepositorio.png)
 
 ![Comprobacion del repositorio 2](imagenes/comprobacionRepositorio2.png)
+
+
+Ahora vamos a seguir con el siguiente apartado --> [Continuar...](gitActions.md)
