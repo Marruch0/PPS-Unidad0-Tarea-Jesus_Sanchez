@@ -31,48 +31,53 @@ Y lo comprobaremos con el comando `mkdocs --version`
 Ahora vamos a crear el archivo `mkdocs.yml` en la raiz del repositorio, en este vamos a definir la estructura de la nevegación, el tema, las extenesiones, los plugins,etc.
 Y en el vamos a incluir lo siguiente:
 ```yml
-	site_name: PPS Unidad 0 - Jesus Sanchez
-	nav:
-	  - Inicio: index.md
-	  - Git: git.md
-	  - GitHub Actions: gitActions.md
-	  - GitHub Pages: gitPages.md
-	  - Docker: docker.md
-	  - Conclusiones: conclusiones.md
-	
-	theme:
-	  name: material
-	  language: es
-	  palette:
-	  # Modo Oscuro
-	    - scheme: default #Por defecto
-	      primary: black # Color del header
-	      accent: lime # Color de los enlaces y botones al pasar el ratón por encima
-	      toggle:
-	        icon: material/weather-sunny
-	        name: Cambiar a modo claro
-	    # Modo Claro 
-	    - scheme: slate
-	      primary: indigo   
-	      accent: purple   
-	      toggle:
-	        icon: material/weather-night
-	        name: Cambiar a modo oscuro
-	
-	  features:
-	    - navigation.top  # Botón para volver arriba
-	    - navigation.expand  # Hace que el menú de la izquierda salga abierto
-	
-	plugins:
-	  - search #Buscador
-	  - glightbox #Para poder poner las imagenes en pantalla completa
-	  
-	markdown_extensions:
-	  - admonition # Extension para las cajas de warning, info,etc
-	  - pymdownx.details
-	  - pymdownx.superfences
-	extra_css:
-	  - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
+site_name: PPS Unidad 0 - Jesus Sanchez
+nav:
+  - Inicio: index.md
+  - Git: git.md
+  - GitHub Actions: gitActions.md
+  - GitHub Pages: gitPages.md
+  - Docker: docker.md
+  - Conclusiones: conclusiones.md
+
+theme:
+  name: material
+  language: es
+  palette:
+  # Modo Oscuro
+    - scheme: slate #Por defecto
+      primary: black # Color del header
+      accent: lime # Color de los enlaces y botones al pasar el ratón por encima
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+    # Modo Claro 
+    - scheme: default
+      primary: indigo   
+      accent: purple   
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+  features:
+    - navigation.top  # Botón para volver arriba
+    - navigation.expand  # Hace que el menú de la izquierda salga abierto
+
+plugins:
+  - search #Buscador
+  - glightbox #Para poder poner las imagenes en pantalla completa
+  
+markdown_extensions:
+  - admonition # Extension para las cajas de warning, info,etc
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+extra_css:
+  - stylesheets/extra.css # Css personalizado que modifica las imagenes para que tengan borde y sombra
 ```
 
 
